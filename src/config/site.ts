@@ -1,7 +1,7 @@
 import { SiteConfig } from "@/types/siteConfig";
 
 export const BASE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL || "https://2dtocut-demo.vercel.app/";
+  process.env.NEXT_PUBLIC_SITE_URL || "https://www.2dtocut.com";
 
 export const SOURCE_CODE_URL = "https://github.com/EmreArslan8/2dtocut-demo";
 export const PRO_VERSION = "";

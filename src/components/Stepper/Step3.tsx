@@ -49,7 +49,7 @@ const Step3 = ({
       }, 10000);
       return () => clearTimeout(timeout);
     }
-  }, [isModalOpen]);
+  }, [isModalOpen, router, locale]);
 
   const handleGoToCart = () => {
     router.push(`/${locale}/cart`);

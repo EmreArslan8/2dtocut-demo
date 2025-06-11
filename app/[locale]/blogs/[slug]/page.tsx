@@ -4,6 +4,7 @@ import { Locale, LOCALES } from "@/i18n/routing";
 import { getPosts } from "@/lib/getBlogs";
 import { constructMetadata } from "@/lib/metadata";
 import { BlogPost } from "@/types/blog";
+import Stack from "@mui/material/Stack";
 import { Metadata } from "next";
 import { MDXRemote } from "next-mdx-remote-client/rsc";
 import Image from "next/image";
@@ -25,7 +26,7 @@ export async function generateMetadata({
   let { posts }: { posts: BlogPost[] } = await getPosts(locale);
 
   // Slug karşılaştırmasını normalize ederek yap
-  const post = posts.find((post) => post.slug.replace(/^\/+/, "") === slug);
+  const post = posts.find((post) => post.slug === slug);
 
   if (!post) {
     return constructMetadata({
@@ -53,37 +54,46 @@ export default async function BlogPage({ params }: { params: Params }) {
   let { posts }: { posts: BlogPost[] } = await getPosts(locale);
 
   // Slug karşılaştırmasını normalize ederek yap
-  const post = posts.find((item) => item.slug.replace(/^\/+/, "") === slug);
+  const post = posts.find((post) => post.slug?.replace(/^\/+/, "") === slug);
 
   if (!post) {
     return notFound();
   }
 
   return (
-    <div className="w-full md:w-3/5 px-2 md:px-12">
-      <h1 className="break-words text-4xl font-bold mt-6 mb-4">{post.title}</h1>
-      {post.image && (
-        <Image src={post.image} alt={post.title} className="rounded-sm" />
-      )}
-      {post.tags && post.tags.split(",").length ? (
-        <div className="flex flex-wrap gap-2">
-          {post.tags.split(",").map((tag) => {
-            return (
-              <div
-                key={tag}
-                className={`rounded-md bg-gray-200 hover:!no-underline dark:bg-[#24272E] flex px-2.5 py-1.5 text-sm font-medium transition-colors hover:text-black hover:dark:bg-[#15AFD04C] hover:dark:text-[#82E9FF] text-gray-500 dark:text-[#7F818C] outline-none focus-visible:ring transition`}
-              >
-                {tag.trim()}
-              </div>
-            );
-          })}
-        </div>
-      ) : (
-        <></>
-      )}
-      {post.description && <Callout>{post.description}</Callout>}
-      <MDXRemote source={post?.content || ""} components={MDXComponents} />
-    </div>
+    <Stack sx={{ pt: 20 }}>
+      <div className="w-full md:w-3/5 px-2 md:px-12">
+        <h1 className="break-words text-4xl font-bold mt-6 mb-4">
+          {post.title}
+        </h1>
+        {post.image && (
+          <Image
+            src={post.image}
+            alt={post.title}
+            className="rounded-sm"
+            fill
+          />
+        )}
+        {post.tags && post.tags.split(",").length ? (
+          <div className="flex flex-wrap gap-2">
+            {post.tags.split(",").map((tag) => {
+              return (
+                <div
+                  key={tag}
+                  className={`rounded-md bg-gray-200 hover:!no-underline dark:bg-[#24272E] flex px-2.5 py-1.5 text-sm font-medium transition-colors hover:text-black hover:dark:bg-[#15AFD04C] hover:dark:text-[#82E9FF] text-gray-500 dark:text-[#7F818C] outline-none focus-visible:ring transition`}
+                >
+                  {tag.trim()}
+                </div>
+              );
+            })}
+          </div>
+        ) : (
+          <></>
+        )}
+        {post.description && <Callout>{post.description}</Callout>}
+        <MDXRemote source={post?.content || ""} components={MDXComponents} />
+      </div>
+    </Stack>
   );
 }
 

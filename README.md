@@ -1,4 +1,4 @@
-🌍 *[English](README.md) ∙ [简体中文](README_zh.md) ∙ [日本語](README_ja.md)*
+🌍 _[English](README.md) ∙ [简体中文](README_zh.md) ∙ [日本語](README_ja.md)_
 
 # Next Forge - Multilingual Next.js 15 Starter
 
@@ -15,7 +15,7 @@ A feature-rich Next.js 15 multilingual starter template to help you quickly buil
 - 🎨 Modern UI design with Tailwind CSS
 - 🌙 Dark/Light theme toggle
 - 📱 Responsive layout
-- 📝 MDX blog system 
+- 📝 MDX blog system
 - 🔍 SEO optimization
 - 📊 Integrated analytics tools
   - Google Analytics
@@ -26,11 +26,13 @@ A feature-rich Next.js 15 multilingual starter template to help you quickly buil
 ## 🚀 Quick Start
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/weijunext/nextjs-15-starter.git
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 # or
@@ -40,20 +42,23 @@ pnpm install
 ```
 
 3. Copy environment variables:
+
 ```bash
 cp .env.example .env
 ```
 
 4. Start the development server:
+
 ```bash
 npm run dev
 ```
 
-Visit http://localhost:3000 to view your application.
+Visit to view your application.
 
 ## ⚙️ Configuration
 
 1. Basic Setup
+
    - Edit `config/site.ts` for website information
    - Update icons and logo in `public/`
    - Configure `app/sitemap.ts` for sitemap
@@ -69,6 +74,7 @@ Visit http://localhost:3000 to view your application.
 ## 📝 Content Management
 
 ### Blog Posts
+
 Create MDX files in `blogs/[locale]` with the following format:
 
 ```markdown
@@ -89,21 +95,24 @@ Post content...
 Reference `types/blog.ts` for supported fields.
 
 ### Static Pages
+
 Manage static page content in `content/[page]/[locale].mdx`.
 
 ## 🔍 SEO Optimization
 
 Built-in comprehensive SEO features:
-   - Server-side rendering and static generation
-   - Automatic sitemap.xml generation
-   - robots.txt configuration
-   - Optimized metadata
-   - Open Graph support
-   - Multilingual SEO support
+
+- Server-side rendering and static generation
+- Automatic sitemap.xml generation
+- robots.txt configuration
+- Optimized metadata
+- Open Graph support
+- Multilingual SEO support
 
 ## 📊 Analytics
 
 Enable analytics by adding IDs in `.env`:
+
 ```
 NEXT_PUBLIC_GOOGLE_ANALYTICS=
 NEXT_PUBLIC_BAIDU_TONGJI=

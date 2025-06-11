@@ -35,6 +35,7 @@ export async function getPosts(
         return {
           locale, // use locale parameter
           title: data.title,
+          subtitle: data.subtitle || "", // ✅ bunu ekle
           description: data.description,
           image: data.image || "",
           slug: data.slug,
