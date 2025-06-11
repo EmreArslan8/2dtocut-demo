@@ -1,6 +1,7 @@
 import MDXComponents from "@/components/mdx/MDXComponents";
 import { Locale, LOCALES } from "@/i18n/routing";
 import { constructMetadata } from "@/lib/metadata";
+import { Stack } from "@mui/material";
 import fs from "fs/promises";
 import { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
@@ -60,13 +61,15 @@ export default async function AboutPage({ params }: { params: Params }) {
   const content = await getMDXContent(locale);
 
   return (
-    <article className="w-full md:w-3/5 px-2 md:px-12">
-      <MDXRemote
-        source={content}
-        components={MDXComponents}
-        options={options}
-      />
-    </article>
+    <Stack sx={{ pt: 40 }}>
+      <article className="w-full md:w-3/5 px-2 md:px-12">
+        <MDXRemote
+          source={content}
+          components={MDXComponents}
+          options={options}
+        />
+      </article>
+    </Stack>
   );
 }
 

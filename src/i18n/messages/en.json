@@ -313,5 +313,363 @@
       "goHome": "Go to Home",
       "goCart": "Go to Cart"
     }
+  },
+  "Arcade": {
+    "section": "How to Works",
+    "title": "Discover the process step by step with our interactive guide.",
+    "description": "Please select the file format you want to upload",
+    "button1": "Dxf Files",
+    "button2": "Image or PDF",
+    "paperTitle": "Get started now and create your laser cutting order!",
+    "offerButton": "Get a Free Quote",
+    "supportButton": "Get Support",
+    "info": "Design. Upload. Get it Cut!"
+  },
+  "HeroSection": {
+    "badge": "Fast and Easy",
+    "title": "Prepare Your Custom Cut Parts",
+    "description": "Upload your design file, define your measurements, and easily order your laser-cut parts. Whether it's a single piece or mass production, we produce it just for you.",
+    "ctaTitle": "Get an online quote now",
+    "slogan": "You design it, we make it!",
+    "button": "Upload File"
+  },
+  "ProcessSteps": {
+    "step1": {
+      "title": "Get Instant Quote",
+      "description": "To get an instant quote: After uploading your 3D model, simply select the manufacturing technology and material."
+    },
+    "step2": {
+      "title": "Place Order",
+      "description": "After placing your order, the manufacturing process begins. You will receive regular updates."
+    },
+    "step3": {
+      "title": "Receive Parts",
+      "description": "We provide quality assurance, inspection reports, and delivery tracking."
+    }
+  },
+  "Advantages": {
+    "whyChooseUs": "Why Choose Us",
+    "subtitle": "Your Vision, Our Craftsmanship",
+    "highSpeed": {
+      "title": "High-Speed Manufacturing",
+      "description": "Using state-of-the-art laser cutting machines, 2dtocut enables you to produce finished parts with instant sheet metal pricing and lead times starting from 7 business days."
+    },
+    "highPrecision": {
+      "title": "High Precision",
+      "description": "2dtocut offers a range of tolerance options according to ISO 2768 (standard, fine)."
+    },
+    "advancedSurface": {
+      "title": "Advanced Surface Options",
+      "description": "Manufacture with advanced surface options like anodizing, powder coating, and painting."
+    },
+    "materialSelection": {
+      "title": "Material Selection",
+      "description": "Choose from metal materials with high strength, corrosion resistance, and various conductivity and weight properties."
+    },
+    "qualityControl": {
+      "title": "Quality Control",
+      "description": "Our Quality Control department provides strong quality assurance. 2dtocut is ISO 9001 certified."
+    },
+    "certificatesReports": {
+      "title": "Certificates and Measurement Reports",
+      "description": "We can provide certificates (e.g., material certificates) and quality control reports (CMM, FAIR, etc.) tailored to your custom parts."
+    }
+  },
+  "OrderSuccessFeedback": {
+    "successTitle": "Congratulations!",
+    "successMessage": " Your order has been successfully received. It will be processed as soon as possible. Thank you!",
+    "backButton": "Return to Home"
+  },
+  "Form": {
+    "title": "Fill in your contact information to receive a quote",
+    "allFieldsRequired": "All fields are required",
+    "nameLabel": "Full Name *",
+    "emailLabel": "Email *",
+    "phoneLabel": "Contact Number *",
+    "policyText": "I have read and agree to the Terms and Conditions and Privacy Policy.",
+    "submitButton": "Submit",
+    "cancelButton": "Cancel",
+    "errors": {
+      "name": "Please enter your name.",
+      "email": "Please enter a valid email address.",
+      "invalidEmail": "Invalid email address.",
+      "phone": "Please enter a valid phone number.",
+      "policy": "Please accept the privacy policy."
+    }
+  },
+  "CartPage": {
+    "title": "Cart",
+    "cartInfo": "Your cart is empty. To create an order back to home page",
+    "button": "Back To Home",
+    "backHomeText": "Or, to create a new order",
+    "cartTitle1": "Cart",
+    "cartTitle2": "Order",
+    "selectProducts": "Please select the product(s) you want to order",
+    "material": "Material",
+    "thickness": "Thickness",
+    "quantity": "Quantity",
+    "coating": "Coating",
+    "painted": "Painted",
+    "unpainted": "Unpainted",
+    "note": "Note",
+    "none": "None",
+    "placeOrder": "Order Now",
+    "skipAndCheckout": "Skip",
+    "continueWithInfo": "Go to Checkout",
+    "clearCart": "Clear Cart",
+    "processingOrder": "Redirecting to payment page please wait",
+    "addMoreProductsText": "Would you like to add more items to the cart? ",
+    "goToHomePageButton": "Return home page",
+    "orderSummary": "Order Summary",
+    "totalProducts": "Total Products",
+    "totalAmount": "Total Amount",
+    "supportInfo": "For assistance with your order, please provide your details below.",
+    "termsAndConditions": "Terms And Conditions",
+    "checkout": "Checkout",
+    "removeButton": "REMOVE",
+    "extraServices": "Extra Services",
+    "itemPrice": "Item total",
+    "itemPriceInfo": "This price is an estimate and may change based on order details.",
+    "pricePending": "Price to be confirmed after order.",
+    "total": "Total",
+    "totalPrice": "Total",
+    "totalPriceTL": "Total (TL)",
+    "totalPriceUSD": "Total (USD)",
+    "customerDetails": "Customer Details",
+    "policyText": "I have read and agree to the Terms and Conditions and Privacy Policy.",
+    "extraServicesList": {
+      "bending": "Bending",
+      "painting": "Coating"
+    },
+    "materialsList": {
+      "Aluminum": "Aluminum",
+      "DKP Steel": "DKP Steel",
+      "Black Sheet": "Black Sheet",
+      "ST37-K / S235JR": "ST37-K / S235JR",
+      "Stainless Steel 304": "Stainless Steel 304",
+      "Stainless Steel 316L": "Stainless Steel 316L"
+    },
+    "fillRequiredFields": "Please fill in all required fields and accept the terms.",
+    "fullNameError": "Full Name must be at least 3 characters.",
+    "emailError": "Please enter a valid email address."
+  },
+  "termsAndConditions": {
+    "title": "Terms and Conditions",
+    "description": "Please carefully read the terms and conditions before placing an order on our platform. By completing a purchase, you agree to these conditions.",
+    "orderProcessing": "🔹 Order Processing: Orders are processed after payment confirmation. If any changes are required, they must be requested before production begins. Changes made after production may incur additional costs.",
+    "paymentMethods": "🔹 Payment Methods: We accept credit card payments via Iyzico and direct bank transfers. For bank transfers, production will begin after payment confirmation. Ensure the correct amount is transferred, as underpayments or overpayments may delay your order.",
+    "pricingPolicy": "🔹 Pricing Policy: Prices are subject to change based on material costs and processing time. A final quote is provided before order confirmation. Additional services requested after confirmation may require an extra charge.",
+    "revisionRequests": "🔹 Revision Requests: Modifications to designs after submission must be communicated before processing. Once the production process starts, changes cannot be made without additional costs.",
+    "orderCancellations": "🔹 Order Cancellations: Orders can be canceled within 24 hours after payment. After this period, production begins, and cancellations may not be possible.",
+    "refundPolicy": "🔹 Refund Policy: Refunds are only available for defective or incorrect items. Custom-cut materials cannot be returned. Please check the details carefully before placing an order.",
+    "privacyPolicy": "🔹 Privacy Policy: Your personal data is securely stored and not shared with third parties except for legal obligations. Payment transactions are encrypted for security.",
+    "deliverySafety": "🔹 Delivery & Safety:",
+    "gloves": "✔️ Handle cut metal parts with gloves. Some edges may be sharp after laser cutting, and careless contact can cause injuries.",
+    "sharpEdges": "✔️ Sharp Edges: Some designs may have sharp corners or fine details after cutting. Please take necessary safety precautions.",
+    "liabilityDisclaimer": "🔹 Liability Disclaimer: We are not responsible for damages caused by improper handling or third-party delivery services. If damage is noticed upon receipt, report it immediately to the courier and document with photos.",
+    "finalAgreement": "🔹 Final Agreement: By completing your order, you acknowledge and agree to these terms and conditions. If you have any concerns, contact us before placing an order."
+  },
+  "Archivements": {
+    "title": "Our Journey & Growth",
+    "subTitle": "Building a Future Together",
+    "description": "We continue to grow and innovate every day. Join us and be a part of something greater!",
+    "experience": "Experience",
+    "ourWorker": "Our Workers",
+    "companyPartner": "Company Partners",
+    "happyClients": "Happy Clients"
+  },
+  "ExamplePage": {
+    "title": "Made with Laser",
+    "description": "Explore our collection of precision-crafted laser-cut designs. "
+  },
+  "aboutUsPage": {
+    "title": "Where Vision Takes Shape with Precision",
+    "aboutUsTitle": "About Us",
+    "aboutUsText1": "By combining advanced technology with innovative solutions, we deliver exceptional quality for both industrial and creative needs. From intricate metal components to custom decorative pieces, we bring your ideas to life with unparalleled precision.",
+    "aboutUsText2": "Our commitment to excellence goes beyond production. With state-of-the-art machinery and a highly skilled team, we ensure precision, speed, and reliability in every project. Whether you're an industry professional or a creative enthusiast, 2dtocut is your trusted partner for sharp solutions.",
+    "approachTitle": "Our Approach",
+    "approachText1": "At 2dtocut, we believe in personalized solutions tailored to your specific needs. Our process begins with understanding your vision and requirements, ensuring that every project aligns with your goals. By integrating the latest technology with meticulous craftsmanship, we create products that exceed expectations.",
+    "approachText2": "We focus on sustainability and efficiency at every stage, minimizing waste while maximizing output quality. From the initial concept to final delivery, our customer-focused approach guarantees satisfaction. Join the many clients who trust 2dtocut for innovation, quality, and an unparalleled experience."
+  },
+
+  "faqPage": {
+    "title": "Frequently Asked Questions",
+    "faqs": [
+      {
+        "question": "What services do you provide?",
+        "answer": "We offer precision cutting and metal processing services for industrial and creative needs."
+      },
+      {
+        "question": "How can I place an order?",
+        "answer": "You can place an order through our website or contact us directly via email or phone."
+      },
+      {
+        "question": "Do you offer custom designs?",
+        "answer": "Yes, we specialize in creating custom designs tailored to your requirements."
+      },
+      {
+        "question": "What is the estimated delivery time?",
+        "answer": "Delivery time depends on the project, but we aim to complete most orders within 5-10 business days."
+      },
+      {
+        "question": "Can you handle large-scale industrial projects?",
+        "answer": "Absolutely. We have the capacity to manage both small and large-scale projects with precision."
+      },
+      {
+        "question": "What materials do you work with?",
+        "answer": "We work with a variety of metals, including aluminum, stainless steel, black sheet, and galvanized sheet."
+      },
+      {
+        "question": "What is your minimum order quantity?",
+        "answer": "The minimum order quantity depends on the type of project, but we are flexible with low-volume orders."
+      },
+      {
+        "question": "What payment methods do you accept?",
+        "answer": "We accept credit cards, bank transfers, and cash in some cases."
+      },
+      {
+        "question": "Which regions do you serve?",
+        "answer": "We serve both national and international customers. Delivery options may vary by region."
+      },
+      {
+        "question": "Can I request a sample job or test work?",
+        "answer": "Yes, you can request test work or a sample job before starting the project."
+      }
+    ]
+  },
+  "contactPage": {
+    "title": "Contact Us",
+    "description": "Have a question or want to reach out? Fill out the form below!",
+    "form": {
+      "nameLabel": "Name",
+      "emailLabel": "Email",
+      "messageLabel": "Message",
+      "submitButton": "Send Message"
+    },
+    "status": {
+      "success": "Message sent successfully!",
+      "error": "Failed to send message. Please try again later."
+    },
+    "submitButton": "Send",
+    "sending": "Sending...",
+    "successMessage": "Your message has been successfully sent!",
+    "errorMessage": "An error occurred. Please try again.",
+    "socialMedia": {
+      "title": "Follow Us on Social Media",
+      "description": "Follow our social media accounts for updates and special offers! You can contact us via WhatsApp.",
+      "whatsapp": "WhatsApp",
+      "instagram": "Instagram"
+    },
+    "map": {
+      "title": "Our Location"
+    }
+  },
+  "calculatePrice": {
+    "priceTL": "Price information will be given after ordering",
+    "priceUSD": "Price information will be given after ordering"
+  },
+
+  "Blog": {
+    "title": "BLOG POST",
+    "subTitle": "Read Our Blog",
+    "posts": [
+      {
+        "title": "How to Easy Engineering",
+        "slug": "how-to-easy-engineering",
+        "excerpt": "Explore practical tips, tutorials, and guides on How to Easy Engineering – making complex engineering topics simple and accessible for everyone.",
+        "content": [
+          "Engineering has long been associated with complexity, requiring extensive calculations, detailed designs, and rigorous testing to ensure that products and structures function correctly. However, advancements in technology, workflow improvements, and strategic planning can make engineering significantly simpler and more accessible.",
+          "One of the biggest improvements in engineering over the past few decades has been the rise of automation. Engineers no longer have to perform all calculations manually; sophisticated software can analyze massive datasets in seconds, producing accurate results far faster than human effort."
+        ],
+        "date": "March 4, 2024",
+        "mainImage": "https://images.unsplash.com/photo-1455165814004-1126a7199f9b?q=80&w=2940&auto=format&fit=crop",
+        "highlight": "Explore practical tips, tutorials, and guides on How to Easy Engineering – making complex engineering topics simple and accessible for everyone.",
+        "highlightContent": "Engineering has long been associated with complexity, requiring extensive calculations, detailed designs, and rigorous testing to ensure that products and structures function correctly...",
+        "leftImage": "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?q=80&w=2940&auto=format&fit=crop",
+        "rightImage": "https://images.unsplash.com/photo-1581092335331-5e00ac65e934?q=80&w=2940&auto=format&fit=crop",
+        "leftImageCaption": "Circular saw in action, precision cutting for industrial projects.",
+        "rightImageCaption": "Worker welding exhaust pipes together in a fabrication workshop.",
+        "belowImagesText": [
+          "Modern engineering techniques have revolutionized the industry, making manufacturing and construction processes more efficient than ever before. By leveraging cutting-edge technology and automation, companies can optimize production lines and reduce labor costs.",
+          "The demand for skilled engineers continues to grow, particularly in industries such as aerospace, automotive, and renewable energy.",
+          "As industries embrace smart manufacturing, the integration of AI and machine learning is becoming increasingly common.",
+          "Education and continuous skill development remain vital for engineers to stay competitive in a rapidly changing job market.",
+          "Ultimately, the goal of modern engineering is to create innovative solutions that enhance productivity while maintaining the highest quality standards."
+        ]
+      },
+      {
+        "title": "The Future of Laser Cutting",
+        "slug": "the-future-of-laser-cutting",
+        "excerpt": "Explore emerging trends, innovations, and technologies shaping the future of laser cutting in modern manufacturing and precision engineering.",
+        "content": [
+          "Laser cutting has transformed the manufacturing and fabrication industries, providing an unprecedented level of precision, speed, and efficiency. The technology continues to evolve, with new advancements shaping its future and expanding its applications.",
+          "One of the most significant improvements in laser cutting is the shift towards fiber laser technology. Fiber lasers are more energy-efficient than traditional CO2 lasers, offering higher cutting speeds with reduced power consumption."
+        ],
+        "date": "February 20, 2024",
+        "mainImage": "/static/images/banner5.avif",
+        "highlight": "Laser cutting is revolutionizing manufacturing with unmatched precision and speed.",
+        "highlightContent": "Fiber laser technology and AI-driven automation are making laser cutting more efficient than ever...",
+        "leftImage": "/static/images/banner3.webp",
+        "rightImage": "/static/images/banner2.webp",
+        "leftImageCaption": "High-precision fiber laser cutting in industrial applications.",
+        "rightImageCaption": "Automated laser cutting machine in a manufacturing plant.",
+        "belowImagesText": [
+          "The rise of AI-driven laser cutting systems has allowed industries to achieve greater levels of precision.",
+          "With automation and cloud-based control systems, factories can now manage laser cutting remotely and optimize workflows in real-time.",
+          "Laser cutting plays a crucial role in electric vehicle (EV) battery production, ensuring high-precision manufacturing of battery components.",
+          "Sustainability remains a major focus, with newer laser technologies reducing energy consumption and material waste.",
+          "In the future, we can expect even greater advancements, including real-time defect detection using AI-powered monitoring systems."
+        ]
+      },
+      {
+        "title": "Maximizing Productivity in Fabrication",
+        "slug": "maximizing-productivity-in-fabrication",
+        "excerpt": "Discover proven strategies and tools to boost efficiency, reduce waste, and maximize productivity in modern fabrication processes.",
+        "content": [
+          "Manufacturing and fabrication industries are under constant pressure to improve efficiency while maintaining high-quality standards. Maximizing productivity is essential for companies that want to reduce costs, increase output, and maintain a competitive edge.",
+          "One of the most effective ways to improve productivity is through automation. By integrating CNC machines, robotic welding arms, and laser cutting systems, fabrication shops can significantly reduce human error and increase production speed."
+        ],
+        "date": "January 15, 2024",
+        "mainImage": "/static/images/main-fabrication.webp",
+        "highlight": "Automation and lean manufacturing are key to maximizing productivity in fabrication.",
+        "highlightContent": "CNC machines, robotic welding, and IoT-driven maintenance are transforming the industry...",
+        "leftImage": "/static/images/benefits.jpg",
+        "rightImage": "/static/images/blog3-3.jpg",
+        "leftImageCaption": "High-precision CNC machining enhancing industrial manufacturing efficiency",
+        "rightImageCaption": "Skilled technician performing precision welding in a modern fabrication workshop.",
+        "belowImagesText": [
+          "Smart manufacturing is driving efficiency in fabrication, with IoT-enabled monitoring systems reducing downtime.",
+          "Lean manufacturing principles help eliminate waste and optimize production schedules, increasing output without raising costs.",
+          "Skilled workforce training is essential for keeping up with advanced fabrication technologies and ensuring optimal machine operation.",
+          "AI and predictive maintenance are reducing machine failures, allowing companies to avoid costly unexpected downtime.",
+          "Future trends in fabrication focus on integrating automation, sustainability, and rapid prototyping to streamline production."
+        ]
+      }
+    ],
+    "readMore": "Read More"
+  },
+
+  "CheckoutPage": {
+    "contact": "Contact",
+    "emailOrPhone": "Email or Phone",
+    "payment": "Payment",
+    "creditCard": "Credit Card (İyzico)",
+    "bankTransfer": "Bank Transfer / EFT",
+    "billingAddress": "Billing Address",
+    "fullName": "Full Name",
+    "address": "Address",
+    "city": "City",
+    "postalCode": "Postal Code",
+    "orderSummary": "Order Summary",
+    "price": "Price",
+    "total": "Total",
+    "completeOrder": "Complete Order",
+    "quantity": "Part",
+    "loading": "Yükleniyor...",
+    "errorLoading": "Sipariş verileri yüklenirken hata oluştu.",
+    "orderReceived": "Congratulations! Your transaction has been received.",
+    "orderConfirmationMessage": "You will be contacted for payment.",
+    "close": "close",
+    "loadingMessage": "loading.."
   }
 }

@@ -1,9 +1,15 @@
 "use client";
 
+import AdvantageSection from "@/components/AdvantageSection";
+import Arcade from "@/components/Arcade";
+import Archivements from "@/components/Archivements";
+import Blogs from "@/components/Blogs";
 import CustomBanner from "@/components/CustomBanner";
 import ExampleSlider from "@/components/ExampleWorks";
 import FeatureSection from "@/components/FeatureSection";
 import FileUpload from "@/components/FileUpload";
+import HeroSection from "@/components/HeroSection";
+import MaterialListSection from "@/components/MaterialSection";
 import ServicesSection from "@/components/ServiceSection";
 import WhatsAppButton from "@/components/WpButton";
 import useFileUpload from "@/hooks/useFileUpload";
@@ -24,8 +30,14 @@ const HomePage = () => {
       />
 
       <FeatureSection />
+      <Arcade />
       <ServicesSection />
+      <HeroSection />
+      <Archivements />
+      <MaterialListSection />
+      <AdvantageSection />
       <ExampleSlider />
+      <Blogs />
       <WhatsAppButton />
     </Stack>
   );

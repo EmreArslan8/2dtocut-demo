@@ -316,5 +316,366 @@
         "image": "/static/images/paslanmaz-sac.png"
       }
     ]
+  },
+  "Arcade": {
+    "section": "Nasıl Çalışır",
+    "title": "Lazer Kesim Siparişlerinizi Kolayca Oluşturun",
+    "description": "Tasarım dosyanızı yükleyin, ölçülerinizi belirleyin ve lazer kesim siparişinizi kolayca tamamlayın.",
+    "button1": "Dxf Dosyaları",
+    "button2": "Diğer Dosyalar",
+    "paperTitle": "Hemen başlayın, lazer kesim siparişinizi oluşturun!",
+    "offerButton": "Ücretsiz Teklif Al",
+    "supportButton": "Destek Al",
+    "info": " Tasarla. Yükle. Kestir!"
+  },
+  "HeroSection": {
+    "badge": "Hızlı ve Kolay",
+    "title": "Özel Kesim Parçalarınızı Hazırlayın",
+    "description": "Tasarım dosyanızı yükleyin, ölçülerinizi belirleyin ve lazer kesimle üretilmiş parçalarınızı kolayca sipariş edin. İster tek parça ister seri üretim, tamamen size özel üretim.",
+    "ctaTitle": "Hemen online teklif alın",
+    "slogan": "Tasarlayın, biz üretelim!",
+    "button": "Dosya Yükle"
+  },
+  "ProcessSteps": {
+    "step1": {
+      "title": "Teklif alın",
+      "description": "Teklif almak için: 3D modelinizi yükleyip iletşim bilgilerinizi girmeniz yeterlidir."
+    },
+    "step2": {
+      "title": "Sipariş ver",
+      "description": "Siparişinizi verdikten sonra üretim süreci başlar. Düzenli geri bildirimler alırsınız."
+    },
+    "step3": {
+      "title": "Parçaları Teslim Alın",
+      "description": "Kalite güvencesi, kalite kontrol raporları ve teslimat takibi sağlıyoruz."
+    }
+  },
+  "Advantages": {
+    "whyChooseUs": "Neden Bizi Seçmelisiniz?",
+    "subtitle": "Sizin Vizyonunuz, Bizim Zanaatkarlığımız",
+    "highSpeed": {
+      "title": "Yüksek Hızda Üretim",
+      "description": "Son teknoloji lazer kesim makineleri kullanarak 2dtocut, anında sac metal fiyatlandırması ve 7 iş gününden başlayan teslim süreleriyle bitmiş parçalar üretmenizi sağlar."
+    },
+    "highPrecision": {
+      "title": "Yüksek Hassasiyet",
+      "description": "2dtocut, ISO 2768'e (standart, ince) göre çeşitli tolerans seçenekleri sunar."
+    },
+    "advancedSurface": {
+      "title": "Geniş Renk Seçenekleri",
+      "description": "Ürünleriniz talep ettiğiniz renk seçeneğine uygun boyalı yada renksiz gönderilebilir."
+    },
+    "materialSelection": {
+      "title": "Malzeme Seçimi",
+      "description": "Yüksek mukavemet, korozyon direnci ve çeşitli iletkenlik ve ağırlık özelliklerine sahip metal malzemeler arasından seçim yapın."
+    },
+    "qualityControl": {
+      "title": "Birleştirilmiş Ürün Gönderimi",
+      "description": "Ürününüzün kaynak yada perçin ile birleştirilerek son ürün şeklinde gönderimi mümkündür."
+    },
+    "certificatesReports": {
+      "title": "Sertifikalar ve Ölçüm Raporları",
+      "description": "Özel parçalarınıza uygun sertifikalar (ör. malzeme sertifikaları) ve kalite kontrol raporları (CMM, FAIR vb.) sağlayabilir."
+    }
+  },
+
+  "OrderSuccessFeedback": {
+    "successTitle": "Tebrikler!",
+    "successMessage": "Siparişiniz başarıyla alındı. En kısa sürede işleme alınacaktır. Teşekkür ederiz!",
+    "backButton": "Ana Sayfaya Dön"
+  },
+  "Form": {
+    "title": "Teklif almak için iletişim bilgilerini doldurun",
+    "allFieldsRequired": "Tüm alanlar gerekli",
+    "nameLabel": "Ad Soyad *",
+    "emailLabel": "E-mail *",
+    "phoneLabel": "İletişim Numarası *",
+    "policyText": "Hüküm ve Koşulları ayrıca Gizlilik Politikası'nı inceledim ve kabul ediyorum.",
+    "submitButton": "Teklif Al",
+    "cancelButton": "İptal",
+    "errors": {
+      "name": "Adınızı soyadınızı giriniz.",
+      "email": "Geçerli bir e-posta adresi giriniz.",
+      "invalidEmail": "E-posta adresi geçersiz.",
+      "phone": "Geçerli bir telefon numarası giriniz.",
+      "policy": "Lütfen gizlilik politikasını kabul edin."
+    }
+  },
+  "CartPage": {
+    "cartInfo": "Sepetinde ürün bulunmamaktadır.Bir sipariş oluştumak için ana sayfaya dönün",
+    "button": "Ana Sayfa'ya dönün",
+    "backHomeText": "Ya da yeni sipariş oluşturmak için",
+    "cartTitle1": "Sepet",
+    "cartTitle2": "Ürün",
+    "selectProducts": "Lütfen sipariş edeceğiniz ürün veya ürünleri seçin",
+    "material": "Materyal",
+    "thickness": "Kalınlık",
+    "quantity": "Adet",
+    "coating": "Boya",
+    "note": "Not",
+    "none": "Yok",
+    "placeOrder": "Sipariş Ver",
+    "skipAndCheckout": "Atla",
+    "continueWithInfo": "Devam et",
+    "clearCart": "sepeti temizle",
+    "addMoreProductsText": "Sepete daha fazla ürün eklemek ister misiniz?",
+    "goToHomePageButton": "Ürün Ekle",
+    "orderSummary": "Sipariş Özeti",
+    "totalProducts": "Toplam Ürün",
+    "totalAmount": "Ödenecek Tutar (KDV Dahil)",
+    "supportInfo": "Siparişinizle ilgili yardım için lütfen aşağıda bilgilerinizi doldurun.",
+    "termsAndConditions": "Kullanım Koşulları ve Üyelik Sözleşmesi okudum ve kabul ediyorum",
+    "checkout": "Devam et",
+    "removeButton": "SİL",
+    "extraServices": "Ek Hizmet",
+    "itemPrice": "Fiyat",
+    "processingOrder": "Ödeme sayfasına yöndlendiriyor lütfen bekleyin",
+    "itemPriceInfo": "Bu fiyat tahmini bir fiyattır. Sipariş detaylarına göre değişebilir",
+    "total": "Toplam",
+    "pricePending": "Fiyat bilgisi siparişten sonra verilecektir.",
+    "customerDetails": "Müşteri bilgileri",
+    "totalPrice": "Toplam Fiyat",
+    "totalPriceTL": "Toplam Fiyat (TL)",
+    "totalPriceUSD": "Toplam Fiyat (USD)",
+    "policyText": "Hüküm ve Koşulları ayrıca Gizlilik Politikası'nı inceledim ve kabul ediyorum.",
+    "extraServicesList": {
+      "bending": "Büküm",
+      "painting": "Boya"
+    },
+    "materialsList": {
+      "Aluminum": "Alüminyum",
+      "DKP Steel": "DKP Çelik",
+      "Black Sheet": "Siyah Sac",
+      "ST37-K / S235JR": "ST37-K / S235JR",
+      "Stainless Steel 304": "Paslanmaz Sac 304",
+      "Stainless Steel 316L": "Paslanmaz Sac 316L"
+    },
+    "fillRequiredFields": "Lütfen gerekli alanları doldurun ve kullanım şartlarını kabul edin.",
+    "fullNameError": "Ad Soyad en az 3 karakter olmalıdır.",
+    "emailError": "Lütfen geçerli bir e-posta adresi giriniz."
+  },
+
+  "termsAndConditions": {
+    "title": "Hüküm ve Koşullar",
+    "description": "Platformumuz üzerinden sipariş vermeden önce lütfen hüküm ve koşulları dikkatlice okuyunuz. Satın alma işlemini tamamladığınızda, bu koşulları kabul etmiş sayılırsınız.",
+    "orderProcessing": "🔹 Sipariş İşleme: Siparişler, ödeme onayı alındıktan sonra işleme alınır. Herhangi bir değişiklik yapılması gerekiyorsa, üretim başlamadan önce talep edilmelidir. Üretim başladıktan sonra yapılan değişiklikler ek maliyet doğurabilir.",
+    "paymentMethods": "🔹 Ödeme Yöntemleri: Iyzico üzerinden kredi kartı ödemelerini ve doğrudan banka havalesini kabul ediyoruz. Banka havalesiyle yapılan ödemelerde, üretim ödeme onayından sonra başlar. Doğru miktarın yatırıldığından emin olun, eksik veya fazla ödemeler siparişinizin gecikmesine neden olabilir.",
+    "pricingPolicy": "🔹 Fiyatlandırma Politikası: Fiyatlar, malzeme maliyetleri ve işleme süresine bağlı olarak değişiklik gösterebilir. Sipariş onayından önce kesin fiyatlandırma sağlanır. Onay sonrası ek hizmet talepleri ek ücrete tabi olabilir.",
+    "revisionRequests": "🔹 Revizyon Talepleri: Tasarımlarda yapılacak değişiklikler, üretim süreci başlamadan önce bildirilmelidir. Üretim başladıktan sonra değişiklikler ancak ek ücretle mümkün olabilir.",
+    "orderCancellations": "🔹 Sipariş İptali: Siparişler, ödeme yapıldıktan sonraki 24 saat içinde iptal edilebilir. Bu sürenin sonunda üretim süreci başlar ve iptal mümkün olmayabilir.",
+    "refundPolicy": "🔹 İade Politikası: Yalnızca hatalı veya yanlış gönderilen ürünler için iade işlemi yapılabilir. Özel kesim malzemeler iade edilemez. Sipariş vermeden önce detayları dikkatlice kontrol ediniz.",
+    "privacyPolicy": "🔹 Gizlilik Politikası: Kişisel verileriniz güvenli bir şekilde saklanır ve yasal zorunluluklar dışında üçüncü taraflarla paylaşılmaz. Ödeme işlemleri güvenlik için şifrelenmiştir.",
+    "deliverySafety": "🔹 Teslimat & Güvenlik:",
+    "gloves": "✔️ Kesilmiş metal parçaları eldivenle taşıyınız. Lazer kesim sonrası bazı parçaların kenarları keskin olabilir ve dikkatsiz temas yaralanmalara neden olabilir.",
+    "sharpEdges": "✔️ Keskin Köşeler: Kesim sonrası bazı tasarımlarda keskin köşeler veya ince detaylar bulunabilir. Güvenlik önlemlerine dikkat ediniz.",
+    "liabilityDisclaimer": "🔹 Sorumluluk Reddi: Yanlış kullanım veya üçüncü taraf kargo hizmetleri nedeniyle oluşan hasarlardan sorumlu değiliz. Ürünü teslim alırken herhangi bir hasar fark ederseniz, derhal kargo firmasına bildiriniz ve fotoğraflarla belgelenmesini sağlayınız.",
+    "finalAgreement": "🔹 Son Onay: Siparişinizi tamamladığınızda, bu hüküm ve koşulları kabul etmiş sayılırsınız. Herhangi bir sorunuz varsa, sipariş vermeden önce bizimle iletişime geçin."
+  },
+  "HowItWorks": {
+    "title": "Nasıl Çalışır",
+    "description": "Etkileşimli rehberimizle adım adım süreci keşfedin."
+  },
+  "Archivements": {
+    "title": "Yolculuğumuz & Büyümemiz",
+    "subTitle": "Deneyim, başarı ve gelişim.",
+    "description": "Her geçen gün gelişen ve büyüyen bir vizyon.",
+    "experience": "Deneyim",
+    "ourWorker": "Çalışanlarımız",
+    "companyPartner": "Şirket Ortakları",
+    "happyClients": "Mutlu Müşteriler"
+  },
+
+  "ExamplePage": {
+    "title": "Örnek Çalışmalarımız",
+    "description": "Hassas işlenmiş lazer kesim tasarımlardan oluşan koleksiyonumuzu keşfedin"
+  },
+  "aboutUsPage": {
+    "title": "Vizyonun Hassasiyetle Şekillendiği Yer",
+    "aboutUsTitle": "Hakkımızda",
+    "aboutUsText1": "Gelişmiş teknolojiyi yenilikçi çözümlerle birleştirerek, hem endüstriyel hem de yaratıcı ihtiyaçlar için olağanüstü kalite sunuyoruz. Karmaşık metal bileşenlerden özel dekoratif parçalara kadar, fikirlerinizi eşsiz bir hassasiyetle hayata geçiriyoruz.",
+    "aboutUsText2": "Mükemmeliyet taahhüdümüz üretimin ötesine geçiyor. En son teknoloji makineler ve son derece yetenekli bir ekiple, her projede hassasiyet, hız ve güvenilirlik sağlıyoruz. İster bir endüstri profesyoneli ister yaratıcı bir hevesli olun, 2dtocut keskin çözümler için güvenilir ortağınızdır.",
+    "approachTitle": "Yaklaşımımız",
+    "approachText1": "2dtocut olarak, özel ihtiyaçlarınıza göre kişiselleştirilmiş çözümlere inanıyoruz. Sürecimiz, vizyonunuzu ve gereksinimlerinizi anlamakla başlar ve her projenin hedeflerinizle uyumlu olmasını sağlar. En son teknolojiyi ve detaylı el işçiliğini entegre ederek, beklentilerin ötesinde ürünler yaratıyoruz.",
+    "approachText2": "Her aşamada sürdürülebilirlik ve verimliliğe odaklanıyoruz, atıkları en aza indirirken çıktı kalitesini en üst düzeye çıkarıyoruz. İlk konseptten son teslimata kadar müşteri odaklı yaklaşımımız memnuniyet garantisi verir. 2dtocut’a güvenen birçok müşteriye katılın; yenilik, kalite ve eşsiz bir deneyim için."
+  },
+
+  "faqPage": {
+    "title": "Sıkça Sorulan Sorular",
+    "faqs": [
+      {
+        "question": "Hangi hizmetleri sunuyorsunuz?",
+        "answer": "Endüstriyel ve yaratıcı ihtiyaçlar için hassas kesim ve metal işleme hizmetleri sunuyoruz."
+      },
+      {
+        "question": "Siparişi nasıl verebilirim?",
+        "answer": "Web sitemiz üzerinden sipariş verebilir veya bize e-posta ya da telefon yoluyla doğrudan ulaşabilirsiniz."
+      },
+      {
+        "question": "Özel tasarımlar yapıyor musunuz?",
+        "answer": "Evet, gereksinimlerinize göre özel tasarımlar yapma konusunda uzmanız."
+      },
+      {
+        "question": "Tahmini teslimat süresi nedir?",
+        "answer": "Teslimat süresi projeye bağlıdır, ancak çoğu siparişi 5-10 iş günü içinde tamamlamayı hedefliyoruz."
+      },
+      {
+        "question": "Büyük ölçekli endüstriyel projeleri yönetebilir misiniz?",
+        "answer": "Kesinlikle. Hem küçük hem de büyük ölçekli projeleri hassasiyetle yönetme kapasitesine sahibiz."
+      },
+      {
+        "question": "Hangi malzemeler üzerinde çalışıyorsunuz?",
+        "answer": "Alüminyum, paslanmaz çelik, siyah sac ve galvanizli sac gibi çeşitli metaller üzerinde çalışıyoruz."
+      },
+      {
+        "question": "Minimum sipariş miktarınız nedir?",
+        "answer": "Minimum sipariş miktarı projenin türüne bağlıdır, ancak genellikle düşük hacimli siparişler için de esnekiz."
+      },
+      {
+        "question": "Hangi ödeme yöntemlerini kabul ediyorsunuz?",
+        "answer": "Kredi kartı, banka havalesi ve bazı durumlarda nakit ödeme kabul ediyoruz."
+      },
+      {
+        "question": "Hangi bölgelerde hizmet veriyorsunuz?",
+        "answer": "Ulusal ve uluslararası müşterilere hizmet veriyoruz. Teslimat seçenekleri bölgeye göre değişiklik gösterebilir."
+      },
+      {
+        "question": "Örnek bir iş veya test çalışması talep edebilir miyim?",
+        "answer": "Evet, proje başlamadan önce test çalışması veya örnek bir iş talep edebilirsiniz."
+      }
+    ]
+  },
+  "contactPage": {
+    "title": "Bize Ulaşın",
+    "description": "Bir sorunuz mu var ya da bize ulaşmak mı istiyorsunuz? Aşağıdaki formu doldurun!",
+    "form": {
+      "nameLabel": "Ad Soyad",
+      "emailLabel": "E-posta",
+      "messageLabel": "Mesaj",
+      "submitButton": "Mesaj Gönder"
+    },
+    "status": {
+      "success": "Mesaj başarıyla gönderildi!",
+      "error": "Mesaj gönderilemedi. Lütfen daha sonra tekrar deneyin."
+    },
+    "submitButton": "Gönder",
+    "sending": "Gönderiliyor...",
+    "successMessage": "Mesajınız başarıyla gönderildi!",
+    "errorMessage": "Bir hata oluştu. Lütfen tekrar deneyin.",
+    "socialMedia": {
+      "title": "Bizi Sosyal Medyada Takip Edin",
+      "description": "Güncel haberler ve fırsatlar için sosyal medya hesaplarımızı takip edin! WhatsApp üzerinden bizimle iletişim kurabilirsiniz.",
+      "whatsapp": "WhatsApp",
+      "instagram": "Instagram"
+    },
+    "map": {
+      "title": "Konumumuz"
+    }
+  },
+  "calculatePrice": {
+    "priceTL": "Price information will be given after ordering",
+    "priceUSD": "Price information will be given after ordering"
+  },
+  "Blog": {
+    "title": "BLOG",
+    "subTitle": "Blogumuzu Okuyun",
+    "posts": [
+      {
+        "title": "Mühendisliği Kolaylaştırmanın Yolları",
+        "slug": "how-to-easy-engineering",
+        "excerpt": "Mühendislik süreçlerinizi kolaylaştırmanın ve verimliliği artırmanın basit adımlarını keşfedin.",
+        "content": [
+          "Mühendislik uzun süredir karmaşıklıkla ilişkilendirilen bir alan olmuştur. Ürünlerin ve yapıların düzgün çalışmasını sağlamak için kapsamlı hesaplamalar, ayrıntılı tasarımlar ve titiz testler gereklidir. Ancak, teknoloji ilerledikçe, iş akışındaki iyileştirmeler ve stratejik planlamalar mühendisliği önemli ölçüde daha basit ve erişilebilir hale getirebilir.",
+          "Son yıllarda mühendislikteki en büyük gelişmelerden biri otomasyonun yükselişi olmuştur. Artık mühendislerin tüm hesaplamaları manuel olarak yapmalarına gerek yok; gelişmiş yazılımlar büyük veri kümelerini saniyeler içinde analiz edebilir ve insan emeğinden çok daha hızlı ve doğru sonuçlar üretebilir."
+        ],
+        "date": "4 Mart 2024",
+        "mainImage": "https://images.unsplash.com/photo-1455165814004-1126a7199f9b?q=80&w=2940&auto=format&fit=crop",
+        "highlight": "Mühendislik süreçlerinizi kolaylaştırmanın ve verimliliği artırmanın basit adımlarını keşfedin.",
+        "highlightContent": "Mühendislik uzun süredir karmaşıklıkla ilişkilendirilen bir alan olmuştur. Ürünlerin ve yapıların düzgün çalışmasını sağlamak için kapsamlı hesaplamalar, ayrıntılı tasarımlar ve titiz testler gereklidir...",
+        "leftImage": "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?q=80&w=2940&auto=format&fit=crop",
+        "rightImage": "https://images.unsplash.com/photo-1581092335331-5e00ac65e934?q=80&w=2940&auto=format&fit=crop",
+        "leftImageCaption": "Endüstriyel projeler için hassas kesim yapan dairesel testere.",
+        "rightImageCaption": "Bir atölyede egzoz borularını kaynak yapan işçi.",
+        "belowImagesText": [
+          "Modern mühendislik teknikleri, üretim ve inşaat süreçlerini her zamankinden daha verimli hale getirmiştir. En son teknoloji ve otomasyonu kullanarak, şirketler üretim hatlarını optimize edebilir ve iş gücü maliyetlerini azaltabilir.",
+          "Nitelikli mühendislere olan talep, özellikle havacılık, otomotiv ve yenilenebilir enerji gibi sektörlerde hızla artmaktadır.",
+          "Endüstriler akıllı üretimi benimserken, yapay zeka ve makine öğreniminin entegrasyonu giderek yaygınlaşmaktadır.",
+          "Eğitim ve sürekli beceri gelişimi, mühendislerin hızla değişen iş piyasasında rekabetçi kalabilmeleri için hayati önem taşımaktadır.",
+          "Sonuç olarak, modern mühendisliğin amacı, verimliliği artırırken en yüksek kalite standartlarını koruyacak yenilikçi çözümler üretmektir."
+        ]
+      },
+      {
+        "title": "Lazer Kesimin Geleceği",
+        "slug": "the-future-of-laser-cutting",
+        "excerpt": "Lazer kesimin endüstrileri nasıl dönüştürdüğünü, hassasiyet ve hız sağladığını keşfedin.",
+        "content": [
+          "Lazer kesim, üretim ve imalat endüstrilerini kökten değiştirmiştir ve benzersiz bir hassasiyet, hız ve verimlilik sunmaktadır. Teknoloji gelişmeye devam ederken, yeni yenilikler lazer kesimin geleceğini şekillendiriyor ve uygulama alanlarını genişletiyor.",
+          "Lazer kesimdeki en önemli gelişmelerden biri fiber lazer teknolojisine geçiş olmuştur. Fiber lazerler, geleneksel CO2 lazerlere göre daha enerji verimlidir ve daha az enerji tüketerek daha yüksek kesim hızları sunar."
+        ],
+        "date": "20 Şubat 2024",
+        "mainImage": "/static/images/banner5.avif",
+        "highlight": "Lazer kesim, eşsiz hassasiyet ve hızla üretimi dönüştürüyor.",
+        "highlightContent": "Fiber lazer teknolojisi ve yapay zeka destekli otomasyon, lazer kesimi her zamankinden daha verimli hale getiriyor...",
+        "leftImage": "/static/images/banner3.webp",
+        "rightImage": "/static/images/banner2.webp",
+        "leftImageCaption": "Endüstriyel uygulamalarda yüksek hassasiyetli fiber lazer kesim.",
+        "rightImageCaption": "Bir üretim tesisinde otomatik lazer kesim makinesi.",
+        "belowImagesText": [
+          "Yapay zeka destekli lazer kesim sistemlerinin yükselişi, endüstrilerin daha yüksek hassasiyet seviyelerine ulaşmasını sağladı.",
+          "Otomasyon ve bulut tabanlı kontrol sistemleri sayesinde fabrikalar artık lazer kesimi uzaktan yönetebilir ve iş akışlarını gerçek zamanlı olarak optimize edebilir.",
+          "Lazer kesim, elektrikli araç (EV) batarya üretiminde kritik bir rol oynamaktadır ve batarya bileşenlerinin yüksek hassasiyetle üretilmesini sağlamaktadır.",
+          "Sürdürülebilirlik, yeni lazer teknolojileriyle enerji tüketimini ve malzeme israfını azaltarak önemli bir odak noktası haline geldi.",
+          "Gelecekte, yapay zeka destekli izleme sistemleri ile gerçek zamanlı hata tespitini içeren daha büyük gelişmeler beklenmektedir."
+        ]
+      },
+      {
+        "title": "İmalatta Verimliliği Maksimuma Çıkarma",
+        "slug": "maximizing-productivity-in-fabrication",
+        "excerpt": "İmalat sürecinizi geliştirmek için uzman ipuçlarını ve teknikleri keşfedin.",
+        "content": [
+          "Üretim ve imalat endüstrileri, yüksek kalite standartlarını korurken verimliliği artırma baskısı altındadır. Maliyetleri azaltmak, üretimi artırmak ve rekabet avantajını sürdürmek isteyen şirketler için üretkenliği maksimize etmek hayati önem taşımaktadır.",
+          "Verimliliği artırmanın en etkili yollarından biri otomasyondur. CNC makineleri, robotik kaynak kolları ve lazer kesim sistemlerinin entegrasyonu, imalat süreçlerinde insan hatalarını önemli ölçüde azaltabilir ve üretim hızını artırabilir."
+        ],
+        "date": "15 Ocak 2024",
+        "mainImage": "/static/images/main-fabrication.webp",
+        "highlight": "Otomasyon ve yalın üretim, imalat verimliliğini en üst düzeye çıkarmanın anahtarıdır.",
+        "highlightContent": "CNC makineleri, robotik kaynak sistemleri ve IoT destekli bakım süreçleri sektörü dönüştürüyor...",
+        "leftImage": "/static/images/benefits.jpg",
+        "rightImage": "/static/images/blog3-3.jpg",
+        "leftImageCaption": "Yüksek hassasiyetli CNC işleme, endüstriyel üretim verimliliğini artırıyor.",
+        "rightImageCaption": "Modern bir imalat atölyesinde hassas kaynak işlemi yapan teknisyen.",
+        "belowImagesText": [
+          "Akıllı üretim sistemleri, IoT destekli izleme çözümleri ile arıza sürelerini azaltarak verimliliği artırıyor.",
+          "Yalın üretim prensipleri, atıkları ortadan kaldırarak ve üretim planlamasını optimize ederek maliyet artışı olmadan üretimi artırıyor.",
+          "Nitelikli iş gücü eğitimi, gelişmiş imalat teknolojilerine ayak uydurmak ve makinelerin optimum çalışmasını sağlamak için kritik öneme sahiptir.",
+          "Yapay zeka ve kestirimci bakım sistemleri, makinelerdeki arızaları önleyerek beklenmedik üretim kesintilerini önlüyor.",
+          "Gelecekteki imalat trendleri, otomasyon, sürdürülebilirlik ve hızlı prototiplemenin entegrasyonuna odaklanmaktadır."
+        ]
+      }
+    ],
+    "readMore": "Devamını Oku"
+  },
+
+  "CheckoutPage": {
+    "contact": "İletişim",
+    "emailOrPhone": "E-Posta veya Telefon",
+    "payment": "Ödeme",
+    "creditCard": "Kredi Kartı (İyzico)",
+    "bankTransfer": "Banka Havalesi / EFT",
+    "billingAddress": "Fatura Adresi",
+    "fullName": "Ad Soyad",
+    "address": "Adres",
+    "city": "Şehir",
+    "postalCode": "Posta Kodu",
+    "orderSummary": "Sipariş Özeti",
+    "price": "Fiyat",
+    "total": "Toplam",
+    "completeOrder": "Siparişi Tamamla",
+    "quantity": "Adet",
+    "loading": "Yükleniyor...",
+    "errorLoading": "Sipariş verileri yüklenirken hata oluştu.",
+    "orderReceived": "Siparişiniz Alındı!",
+    "orderConfirmationMessage": "Ödemeniz için sizinle en kısa sürede iletişime geçilecektir.",
+    "close": "Kapat",
+    "loadingMessage": "Yükleniyor.."
   }
 }
