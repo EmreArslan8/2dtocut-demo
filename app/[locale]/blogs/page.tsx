@@ -23,6 +23,8 @@ export async function generateMetadata({
     description: t("description"),
     locale: locale as Locale,
     path: `/blogs`,
+    canonicalUrl: `/blogs`,
+    availableLocales: LOCALES,
   });
 }
 

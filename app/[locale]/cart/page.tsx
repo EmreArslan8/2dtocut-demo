@@ -24,6 +24,8 @@ export async function generateMetadata({
     description: t("description"),
     locale: locale as Locale,
     path: `/cart`,
+    canonicalUrl: `/cart`,
+    availableLocales: LOCALES,
   });
 }
 

@@ -25,8 +25,18 @@ export async function generateMetadata({
   const { locale, slug } = await params;
   let { posts }: { posts: BlogPost[] } = await getPosts(locale);
 
-  // Slug karşılaştırmasını normalize ederek yap
+  // find post in current locale
   const post = posts.find((post) => post.slug === slug);
+
+  // determine in which locales the slug exists
+  const availableLocales: Locale[] = [];
+  for (const loc of LOCALES) {
+    const { posts: locPosts } =
+      loc === locale ? { posts } : await getPosts(loc);
+    if (locPosts.find((p) => p.slug === slug)) {
+      availableLocales.push(loc as Locale);
+    }
+  }
 
   if (!post) {
     return constructMetadata({
@@ -35,6 +45,8 @@ export async function generateMetadata({
       noIndex: true,
       locale: locale as Locale,
       path: `/blogs/${slug}`,
+      canonicalUrl: `/blogs/${slug}`,
+      availableLocales,
     });
   }
 
@@ -45,7 +57,8 @@ export async function generateMetadata({
     images: post.image ? [post.image] : [],
     locale: locale as Locale,
     path: `/blogs/${slug}`,
-    // canonicalUrl: `/blogs/${slug}`,
+    canonicalUrl: `/blogs/${slug}`,
+    availableLocales,
   });
 }
 

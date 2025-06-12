@@ -52,6 +52,8 @@ export async function generateMetadata({
     description: t("description"),
     locale: locale as Locale,
     path: `/examples`,
+    canonicalUrl: `/examples`,
+    availableLocales: LOCALES,
   });
 }
 

@@ -47,6 +47,8 @@ export async function generateMetadata({
     description: t("description"),
     locale: locale as Locale,
     path: `/faq`,
+    canonicalUrl: `/faq`,
+    availableLocales: LOCALES,
   });
 }
 

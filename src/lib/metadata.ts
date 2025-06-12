@@ -12,6 +12,7 @@ type MetadataProps = {
   locale: Locale
   path?: string
   canonicalUrl?: string
+  availableLocales?: Locale[]
 }
 
 export async function constructMetadata({
@@ -23,6 +24,7 @@ export async function constructMetadata({
   locale,
   path,
   canonicalUrl,
+  availableLocales,
 }: MetadataProps): Promise<Metadata> {
   // get translations
   const t = await getTranslations({ locale, namespace: 'Home' })
@@ -51,11 +53,14 @@ export async function constructMetadata({
   const pageURL = `${locale === DEFAULT_LOCALE ? '' : locale}${path}` || siteConfig.url
 
   // build alternate language links
-  const alternateLanguages = Object.keys(LOCALE_NAMES).reduce((acc, lang) => {
-    const path = canonicalUrl
+  const locales = (availableLocales && availableLocales.length
+    ? availableLocales
+    : (Object.keys(LOCALE_NAMES) as Locale[]))
+  const alternateLanguages = locales.reduce((acc, lang) => {
+    const pathWithLocale = canonicalUrl
       ? `/${lang === DEFAULT_LOCALE ? '' : lang}${canonicalUrl}`
       : `/${lang === DEFAULT_LOCALE ? '' : lang}`
-    acc[lang] = `${siteConfig.url}/${path}`
+    acc[lang] = `${siteConfig.url}${pathWithLocale}`
     return acc
   }, {} as Record<string, string>)
 

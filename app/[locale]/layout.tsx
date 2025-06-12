@@ -35,7 +35,8 @@ export async function generateMetadata({
     description: t("description"),
     locale: locale as Locale,
     path: `/`,
-    // canonicalUrl: `/blogs/${slug}`,
+    canonicalUrl: `/`,
+    availableLocales: LOCALES,
   });
 }
 
