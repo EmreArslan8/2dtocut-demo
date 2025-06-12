@@ -20,7 +20,7 @@ export const siteConfig: SiteConfig = {
   authors: [
     {
       name: "2dtocut",
-      url: "https://www.2dtocut.com",
+      url: BASE_URL,
     },
   ],
   creator: "@2dtocut",
