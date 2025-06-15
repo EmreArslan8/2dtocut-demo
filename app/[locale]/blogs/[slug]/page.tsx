@@ -1,6 +1,6 @@
 import { Callout } from "@/components/mdx/Callout";
 import MDXComponents from "@/components/mdx/MDXComponents";
-import { Locale, LOCALES } from "@/i18n/routing";
+import { DEFAULT_LOCALE, Locale, LOCALES } from "@/i18n/routing";
 import { getPosts } from "@/lib/getBlogs";
 import { constructMetadata } from "@/lib/metadata";
 import { BlogPost } from "@/types/blog";
@@ -45,7 +45,8 @@ export async function generateMetadata({
     images: post.image ? [post.image] : [],
     locale: locale as Locale,
     path: `/blogs/${slug}`,
-    // canonicalUrl: `/blogs/${slug}`,
+    canonicalUrl:
+      locale === DEFAULT_LOCALE ? `blogs/${slug}` : `${locale}/blogs/${slug}`,
   });
 }
 
