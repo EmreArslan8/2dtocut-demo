@@ -1,4 +1,4 @@
-import { DEFAULT_LOCALE, Locale } from "@/i18n/routing";
+import { Locale } from "@/i18n/routing";
 import { getPosts } from "@/lib/getBlogs";
 import { constructMetadata } from "@/lib/metadata";
 import { BlogCard } from "app/[locale]/blogs/BlogCard";
@@ -23,7 +23,7 @@ export async function generateMetadata({
     description: t("description"),
     locale: locale as Locale,
     path: `/blogs`,
-    canonicalUrl: locale === DEFAULT_LOCALE ? "blogs" : `${locale}/blogs`,
+    canonicalUrl: `/blogs`,
   });
 }
 
