@@ -1,5 +1,5 @@
 import MDXComponents from "@/components/mdx/MDXComponents";
-import { DEFAULT_LOCALE, Locale, LOCALES } from "@/i18n/routing";
+import { Locale, LOCALES } from "@/i18n/routing";
 import { constructMetadata } from "@/lib/metadata";
 import { Stack } from "@mui/material";
 import fs from "fs/promises";
@@ -53,7 +53,7 @@ export async function generateMetadata({
     description: t("description"),
     locale: locale as Locale,
     path: `/about`,
-    canonicalUrl: locale === DEFAULT_LOCALE ? "about" : `${locale}/about`,
+    //  canonicalUrl: locale === DEFAULT_LOCALE ? "about" : `${locale}/about`,
   });
 }
 
